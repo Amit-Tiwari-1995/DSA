@@ -42,7 +42,7 @@ public class MatrixSearch {
 		start = 0;
 		end = A[0].length - 1;
 
-		//now search in that row which contains the elements
+		//now search for the element in that particular row
 		while (start <= end) {
 			int mid = (start + end) / 2;
 			if (A[targetRow][mid] == B) {
